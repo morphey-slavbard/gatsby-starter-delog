@@ -3,6 +3,8 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+ <script src="https://cdn.optimizely.com/js/21258570058.js"></script>
+
 
 module.exports = {
   /* Your site config here */
