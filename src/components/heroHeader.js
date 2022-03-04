@@ -15,8 +15,9 @@ export default () => (
       }
     `}
     render={data => (
-      <div class="heroimage">
+      
       <div className="hero-header">
+        <div class="heroimage">
         <div className="headline">{data.site.siteMetadata.home.title}</div>
         <div 
           className="primary-content" 
