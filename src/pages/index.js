@@ -20,9 +20,7 @@ const IndexPage = ({
   return (
     <Layout>
       <Helmet>
-      <script>
-      {`src="https://cdn.optimizely.com/js/21258570058.js`}
-      </script>
+      <script src="https://cdn.optimizely.com/js/21258570058.js"></script>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
