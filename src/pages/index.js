@@ -12,6 +12,8 @@ const IndexPage = ({
   },
 }) => {
 
+  <script src="https://cdn.optimizely.com/js/21258570058.js"></script>
+
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
